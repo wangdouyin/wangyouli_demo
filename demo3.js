@@ -15,7 +15,6 @@ function CoolModule(){
     }
 }
 
-
 var foo=CoolModule()
 foo.doSomething()
 foo.doAnother()

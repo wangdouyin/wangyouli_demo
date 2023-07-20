@@ -25,13 +25,13 @@
 /*代码3：开始 */
 function foo(){
     var a=3;
-    console.log(this.a)
+    console.log(this.a)//2
 }
 
 var obj={
     a:2,
     foo:foo
 }
-
+var a=4;
 obj.foo()
 /*代码3：结束 */

@@ -1,21 +1,5 @@
-///模块原理，通过函数的形式声明模块概念
-
-function CoolModule(){
-    var something="cool"
-    var another=[1,2,3]
-    function doSomething(){
-        console.log(something)
-    }
-    function doAnother(){
-        console.log(another)
-    }
-    return {
-        doSomething:doSomething,
-        doAnother:doAnother
-    }
-}
-
-var foo=CoolModule()
-foo.doSomething()
-foo.doAnother()
-
+///数组键值规则有没有引号的没有区别
+const arr=[1];
+arr[0]++;
+arr['0']++
+console.log(arr)

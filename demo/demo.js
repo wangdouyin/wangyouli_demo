@@ -24,7 +24,7 @@
 
 /*代码3：开始 */
 function foo(){
-    var a=3;
+    var a=3;//烟雾弹
     console.log(this.a)//2
 }
 
@@ -32,6 +32,6 @@ var obj={
     a:2,
     foo:foo
 }
-var a=4;
+var a=4;//烟雾弹
 obj.foo()
 /*代码3：结束 */
